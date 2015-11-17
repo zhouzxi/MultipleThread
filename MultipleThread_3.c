@@ -57,10 +57,10 @@ INT32 main()
         }
     }
 	
-	Sleep(1000);   // 休息1s
+    Sleep(1000);   // 休息1s
 	
-	// 打印全局变量的值
-	printf("In main, TestInteger = %d\n", g_iTestInteger);
+    // 打印全局变量的值
+    printf("In main, TestInteger = %d\n", g_iTestInteger);
 
     return 0;   
 }
@@ -78,7 +78,7 @@ INT32 main()
  ************************************************************************/
 void ProcessTask(void *pParam)
 {
-	g_iTestInteger ++;
+    g_iTestInteger ++;
 }
 
 
